@@ -1,0 +1,133 @@
+git clone https://github.com/LuuVyVy-25174600005-DHKL19A1/25174600005_Luu_Vy_Vy_bai_tap.git
+cd 25174600005_Luu_Vy_Vy_bai_tap
+ls
+git add README.md
+git commit -m "Cập nhật nội dung file README.md"
+git push origin main
+git add README.md
+git commit -m "Cập nhật nội dung file README.md"
+git push origin main
+pwd
+git add README.md
+git commit -m "Cập nhật nội dung file README.md"
+git config --global "lvvy.25174600005.sv.uneti.edu.vn"
+git config --global user.email "lvvy.25174600005.sv.uneti.edu.vn"
+  git config --global user.name "Lưu Vy Vy"
+git commit -m "Cập nhật nội dung file README.md"
+git push origin main
+git branch
+git branch branch_1
+git branch branch-2
+git branch branch_3
+git branch branch_4
+git branch
+git checkout branch_1
+echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+git add text_branch_1.txt
+git commit -m "Thêm file text_branch_1.txt"
+git push origin branch_1
+git checkout branch_2
+git checkout branch-2
+echo "Praesent ullamcorper orci eu erat placerat sodales." > text_branch-2.txt
+git add text_branch-2.txt
+git commit -m "Thêm file text_branch-2.txt"
+git push origin branch-2
+git checkout branch_3
+echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > text_branch_3.txt
+git add text_branch_3.txt
+git commit -m "Thêm file text_branch_3.txt"
+git push origin branch_3
+git checkout branch_4
+echo "Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+
+git commit -m "Thêm file text_branch_4.txt"
+git push origin branch_4
+git checkout main
+git branch_d branch_4
+git branch
+git branch-d branch_4
+git branch
+git checkout main
+git branch -d branch_4
+git branch -D branch_4
+git branch
+git branch
+git pull
+git branch
+mkdir main_folder
+echo "Tệp tin 1" > main_folder/main_txt_1.txt
+echo "Tập tin 2" > main_folder/main_txt_2.txt
+
+
+
+
+
+clear
+
+cd 25174600005_Luu_Vy_Vy_bai_tap
+git branch
+echo "Tập tin 3" > main_folder/main_txt_3.txt
+ls main_folder
+git add main_folder/
+git commit -m "Thêm thư mục main_folder và 3 tệp tin main_txt_1.txt, main_txt_2.txt, main_txt_3.txt
+cd 25174600005_Luu_Vy_Vy_bai_tap
+git branch
+git commit -m "Thêm thư mục main_folder và 3 tệp tin main_txt_1.txt, main_txt_2.txt, main_txt_3.txt"
+git push origin main
+git branch
+git branch -r
+git push origin --delete branch_4
+git branch -r
+git checkout branch_1
+git checkout -b branch_5
+git branch
+echo "Etiam malesuada felis nulla, ac porta dui sollicitudin eget. Mauris hendrerit non metus eget pellentesque. Etiam ornare ante at pretium hendrerit. Proin molestie accumsan sapien, ac finibus libero lobortis quis. Praesent ac commodo eros. Nullam malesuada v el dui nec feugiat. Cras justo ipsum, scelerisque et elit vitae, porttitor tristique turpis. Nam ut hendrerit est. Nulla sed tincidunt nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque vitae egestas lacus. Phasellus turpis ante, euismod quis pellentesque et, pharetra id ligula. Vestibulum mattis sem ac ligula auctor viverra. Phasellus dignissim mollis leo, vitae tristique enim." > text_branch_1.txt
+git add text_branch_1.txt
+git commit -m "Sửa nội dung file text_branch_1.txt trong branch_5"
+git push origin branch_5
+git branch
+git branch -d branch_5
+git branch -D branch_5
+git branch
+git checkout main
+git pull origin main
+git merge branch_1
+cd 25174600005_Lưu_Vy_Vy_bai_tap
+cd 25174600005_Luu_Vy_Vy_bai_tap
+git branch
+git pull origin main
+git merge branch_1
+git status
+git commit
+git merge branch_1 -m "Merge branch_1 vào main"
+ls
+git merge branch_2
+git merge branch-2
+git merge branch-2 -m "Merge branch-2 vào main"
+git add .
+git commit -m "Giải quyết conflict khi merge branch-2 vào main"
+git merge branch_3
+git merge branch_3 -m "Merge branch_3 vào main'
+cd 25174600005_Luu_Vy_Vy_bai_tap
+git branch
+git merge branch_3 -m "Merge branch_3 vào main"
+git merge branch_5 -m 'Merge branch_5 vào main"
+cd 25174600005_Luu_Vy_Vy_bai_tap
+git merge branch_5 -m "Merge branch_5 vào main"
+ls
+git push origin main
+git branch
+git branch
+git branch -d branch-2
+git branch -d branch_3
+git push origin --delete branch-2
+git push origin --delete branch_3
+git branch -d branch_5
+git checkout branch_1
+git merge main
+git push origin branch_1
+git pull origin branch_1 --rebase
+git push origin branch_1
+git log --oneline --graph --all
+git push origin branch_1
+
